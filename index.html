@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- BOOTSTRAP -->
-
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
@@ -20,36 +19,37 @@
     </script>
 
     <!--Slick-->
-
     <link rel="stylesheet" type="text/css" href="slick\slick\slick.css" />
     <link rel="stylesheet" type="text/css" href="slick\slick\slick-theme.css" />
 
-    <!-- FONT AWESOME -->
+    <!-- Google FONT -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;900&display=swap" rel="stylesheet">
 
+    <!-- FONT AWESOME -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/fontawesome.min.js"></script>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="js/parallax/parallax.min.js"></script>
-    <!-- CSS -->
 
+    <!-- CSS -->
     <link rel="stylesheet" href="css/style.css">
     
     <title>Cinéma Metropolis</title>
 </head>
 
 <body>
-    <div class="navbar">
+    <div class="navbarp">
         <img class="logo_nav" src="img/allo.png" alt="logo">
         <a href="#">Accueil</a>
         <a href="#">Film</a>
         <a href="#">Contact</a>
-        <i class="fas fa-user-circle fa-3x"></i>
+        <i class="fas fa-user-circle fa-2x"></i>
     </div>
     <div class="banniere">
-        <h1>Cinéma Metropolis</h1>
+        <h1><img src="img/allo2.png" alt=""></h1>
         <div class="panel">
-            <a class="connect" href="#">Me connecter</a>
+            <a class="connect" data-toggle="modal" data-target="#exampleModalCenter">Me connecter</a>
             <a class="account" href="#">Crée un compte</a>
         </div>
         <i class="fas fa-user-circle fa-4x"></i>
@@ -63,11 +63,18 @@
             </li>
         </ul>
     </nav>
-    
-    <div class="header">
-        <h2>A NE PAS MANQUER</h2>
-        <div class="vl"></div>
+    <div class="news_p">
+    <p class="news">Suite à la decision du gouvernement du 14 Mars, Nous avons fermé le cinéma METROPOLIS. Nous esperons pouvoir vous accueilllir tres vite et vous informerons de la situation.<br>
+     Nous avons hâte de vous retrouver dans nos salles !</p>
+    <p class="red">La validité des billets CE, des chèques cadeaux et des cartes d'abonnement sera prolongée pour une periode équivalente a la periode de fermeture</p>
     </div>
+    <div class="header">
+        <h2>NEWS</h2>
+        <div class="vl3"></div>
+    </div>
+
+    <h2>A L'AFFICHE</h2>
+    <div class="vl"></div>
     <div class="center slider">
         <a class="link-poster" href=""><img src="img/slider/slider.jpg" alt=""></a>
         <a class="link-poster" href=""><img src="img/slider/slider1.jpg" alt=""></a>
@@ -76,7 +83,9 @@
         <a class="link-poster" href=""><img src="img/slider/slider5.jpg" alt=""></a>
     </div>
     </div>
-    <div class="parallax-window" data-parallax="scroll" data-z-index="1" data-image-src="img/banniere.jpg"></div>
+    <div class="parallax-window" data-parallax="scroll" data-z-index="1" data-image-src="img/harrypottercorona.jpg">
+    <p>TEST Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, corporis. Deleniti consequuntur sed quae amet modi, enim optio nesciunt repellat necessitatibus alias maxime est expedita, natus quisquam numquam commodi eos!</p>
+    </div>
     <h2 class="title">TARIFS</h2>
     <div class="vl2"></div>
     <p class="ss">SUR PLACE :</p>
@@ -96,7 +105,7 @@
             <p>11€</p>
         </div>
     </div>
-    <div class="parallax-window" data-parallax="scroll" data-z-index="1" data-image-src="img/banniere.jpg"></div>
+    
     <p class="ss">RESERVATION :</p>
     <div class="allcard">
         <div class="card">
@@ -114,7 +123,40 @@
             <p>8€</p>
         </div>
     </div>
-
+    <div class="parallax-window" data-parallax="scroll" data-z-index="1" data-image-src="img/harrypottercorona.jpg"></div>
+    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLongTitle">CONNEXION</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="form-group">
+                      <label for="exampleInputEmail1">Email :</label>
+                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                      <small id="emailHelp" class="form-text text-muted">Nous partegerons jamais votre email</small>
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleInputPassword1">Mot de passe</label>
+                      <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                    </div>
+                    <div class="form-check">
+                      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                      <label class="form-check-label" for="exampleCheck1">Se souvenir de moi</label>
+                    </div>
+                  </form>
+            </div>
+            <div class="modal-footer ml-3">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+              <button type="button" class="btn btn-primary">Se connecter</button>
+            </div>
+          </div>
+        </div>
+      </div>
     <footer>
         <div class="allcol">
             <div class="colfooter">
@@ -156,7 +198,7 @@
                         settings: {
                             arrows: false,
                             centerMode: true,
-                            centerPadding: '40px',
+                            centerPadding: '0px',
                             slidesToShow: 2
                         }
                     },
@@ -165,7 +207,7 @@
                         settings: {
                             arrows: false,
                             centerMode: true,
-                            centerPadding: '40px',
+                            centerPadding: '0px',
                             slidesToShow: 1
                         }
                     }

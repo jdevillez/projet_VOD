@@ -1,13 +1,11 @@
 $(function() {
-  		$('.navbar').hide();
+  		$('.navbarp').hide();
 	    });
-		
-		
-       
+
 $(window).scroll(function(){  
     posScroll = $(document).scrollTop();  
-    if(posScroll >=410)  
-        $('.navbar').slideDown(400);  
+    if(posScroll >=400)  
+        $('.navbarp').slideDown(400);
     else  
-        $('.navbar').slideUp(50);  
-    });  
+        $('.navbarp').slideUp(50);  
+    });
