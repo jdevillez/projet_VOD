@@ -5,7 +5,7 @@
 
 3/04/20 : Début du responsive.
 
-08/04/20: Commit dev Supression de bootstrap réajustement du site, mise en place de modal jquery, et debut de la page wonder woman (page film) 
+08/04/20: Commit dev Supression de bootstrap réajustement du site, mise en place de modal jquery, et debut de la page wonder woman (page film) + Trello refais entierement
 
 http://devillez.simplon-charleville.fr/projetvod/
 https://trello.com/b/kwybL0rm/allo-simplon
