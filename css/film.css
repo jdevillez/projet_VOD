@@ -1,0 +1,47 @@
+.synop {
+background: #FFFFFF;
+border: 1px solid rgba(0, 0, 0, 0.47);
+box-sizing: border-box;
+box-shadow: 0px 0px 5px #000000;
+width: 40%;
+}
+.synop p {
+    font-size: 24px;
+}
+.lecteur {
+    width: 40%;
+    margin-right: 200px;
+}
+.detail {
+    background-color: black;
+    height: 250px;
+}
+.allcircle{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 250px;
+}
+.circle {
+    border-radius: 50%;
+    background-color: #F4C51B;
+    height: 150px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.entete {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+.allcircle p {
+    font-size: 30px;
+    font-weight: 900;
+    color: #F4C51B;
+}
