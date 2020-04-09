@@ -58,13 +58,15 @@ h1 img {
 .header {
     position: absolute;
     text-align: center;
-    top: 320px;    
+    top: 350px;    
     width: 80%;    
-    height: 80px;
+    height: 50px;
     left: 10%;
     right: 10%;
     background-color: white;
-    padding-top: 25px;
+    padding-top: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 .vl {
     width: 5%;    
@@ -76,7 +78,7 @@ h1 img {
 .test  {
     position: absolute;
     text-align: center;
-    top: 275px;    
+    top: 265px;    
     width: 100%;
     margin-left: auto;
     margin-right: auto;
@@ -124,6 +126,9 @@ h1 img {
 }
 h2 {
     text-align: center;
+    margin-bottom: 0px;
+      margin-top: 0px;
+      font-size: 34px;
 }
 .vl2 {
     width: 5%;    
@@ -251,7 +256,15 @@ footer h3 {
     text-align: center;
     color: red;
 } */
-
+.modal fieldset {
+    width: 50%;
+    text-align: center;
+    margin-bottom: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 10 10 10 10;
+    border-width: 0px;
+}
 
 /* woullah c dur*/
   

@@ -62,6 +62,3 @@
         </form>
   <a href="#" rel="modal:close">Close</a>
 </div>
-
-<!-- Link to open the modal -->
-<p><a href="#ex1" rel="modal:open">Open Modal</a></p>
