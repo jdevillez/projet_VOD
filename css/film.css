@@ -1,0 +1,111 @@
+.synop {
+background: #FFFFFF;
+border: 1px solid rgba(0, 0, 0, 0.47);
+box-sizing: border-box;
+box-shadow: 0px 0px 5px #000000;
+width: 40%;
+}
+.synop p {
+    font-size: 24px;
+}
+.lecteur {
+    width: 40%;
+    margin-right: 200px;
+}
+.detail {
+    background-color: black;
+    height: 250px;
+}
+.allcircle{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 250px;
+}
+.circle {
+    border-radius: 50%;
+    background-color: #F4C51B;
+    height: 180px;
+    width: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.entete {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.allcircle p {
+    font-size: 30px;
+    font-weight: 900;
+    color: #F4C51B;
+}
+.img-acteur {
+    width: 150px;
+    height: 200px;
+}
+.acteur {
+    font-size: 16px;
+    text-align: center;
+}
+.containeracteur{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.containerreal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.img-real{
+    width: 150px;
+    height: 200px;
+}
+.real {
+    font-size: 16px;
+    text-align: center;
+}
+.synopreal {
+    width: 50%;
+    margin-left: 30px;
+    font-size: 24px;
+}
+@media screen and (min-width: 989px) and (max-width: 1150px) {
+  
+  } 
+  @media screen and (min-width: 426px) and (max-width: 988px){
+    .entete {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+       }
+       .allcircle p{
+            visibility: hidden;
+       }
+       .synop{
+        margin-top: 50px;
+    }
+    .circle {
+        height: 110px;
+        width: 195px;
+    }
+  } 
+  @media screen and (min-width: 321px) and (max-width: 425px) {
+    
+  }
+  @media screen and (min-width: 200px) and (max-width: 425px) {
+    
+  }
